@@ -7,19 +7,19 @@
 
 # SQL Queries-
 
-COPY bike_rentals 
+{COPY bike_rentals 
 
 FROM 'D:/YT_bike_share-main/bike_share_yr_0.csv' 
 
 DELIMITER ',' 
 
-CSV HEADER;
+CSV HEADER;}
 
 
 
-with cte as (select * from bike_share_yr_0
+{With cte as (select * from bike_share_yr_0
 
-union all
+UNION ALL
 
 select * from bike_share_yr_1)
 
@@ -34,9 +34,9 @@ riders*price-cogs as profit
 
 from cte a
 
-left join cost_table b
+LEFT JOIN cost_table b
 
-on a.yr=b.yr
+on a.yr=b.yr}
 
 
 # End to end Data Analysis Project of PostgreSQL + Power BI included:
