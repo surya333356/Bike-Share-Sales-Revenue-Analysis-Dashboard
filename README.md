@@ -5,6 +5,8 @@
 
 ![image](https://github.com/user-attachments/assets/b1f6e763-1c6a-4386-bad6-0c3931717747)
 
+https://www.linkedin.com/posts/suryasingh77_postgresql-powerbi-bikeshare-activity-7296813849247117312-5VIW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEv2NOEBgsZvnmpDaoFjuOnPpMsdmzyLe6I
+
 # SQL Queries-
 
 {COPY bike_rentals 
